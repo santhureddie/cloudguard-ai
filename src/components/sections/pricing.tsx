@@ -1,10 +1,9 @@
-
 import { Check } from "lucide-react";
 import { ButtonPremium } from "../ui/button-premium";
 
 const Pricing = () => {
   return (
-    <div className="py-24">
+    <div id="pricing" className="py-24">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl font-bold mb-4">Simple, transparent pricing</h2>
