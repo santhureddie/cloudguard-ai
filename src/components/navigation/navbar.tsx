@@ -40,10 +40,17 @@ const Navbar = () => {
               >
                 Pricing
               </button>
-              <ButtonPremium variant="outline" size="sm">
+              <ButtonPremium 
+                variant="outline" 
+                size="sm"
+                className="!text-primary hover:!text-primary/90"
+              >
                 Sign In
               </ButtonPremium>
-              <ButtonPremium size="sm">
+              <ButtonPremium 
+                size="sm"
+                className="!text-white hover:!text-white/90"
+              >
                 Get Started
               </ButtonPremium>
             </div>
@@ -80,10 +87,15 @@ const Navbar = () => {
               Pricing
             </button>
             <div className="pt-4 space-y-2">
-              <ButtonPremium variant="outline" className="w-full">
+              <ButtonPremium 
+                variant="outline" 
+                className="w-full !text-primary hover:!text-primary/90"
+              >
                 Sign In
               </ButtonPremium>
-              <ButtonPremium className="w-full">
+              <ButtonPremium 
+                className="w-full !text-white hover:!text-white/90"
+              >
                 Get Started
               </ButtonPremium>
             </div>
