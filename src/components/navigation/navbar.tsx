@@ -41,9 +41,8 @@ const Navbar = () => {
                 Pricing
               </button>
               <ButtonPremium 
-                variant="outline" 
                 size="sm"
-                className="text-primary hover:text-primary/90 font-medium"
+                className="text-white hover:text-white/90"
               >
                 Sign In
               </ButtonPremium>
@@ -88,8 +87,7 @@ const Navbar = () => {
             </button>
             <div className="pt-4 space-y-2">
               <ButtonPremium 
-                variant="outline" 
-                className="w-full text-primary hover:text-primary/90 font-medium"
+                className="w-full text-white hover:text-white/90"
               >
                 Sign In
               </ButtonPremium>
@@ -107,3 +105,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
