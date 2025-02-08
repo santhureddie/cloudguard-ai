@@ -22,7 +22,7 @@ const Hero = () => {
             <ButtonPremium size="lg">
               Get Started Free
             </ButtonPremium>
-            <ButtonPremium variant="outline" size="lg">
+            <ButtonPremium size="lg">
               Schedule Demo
             </ButtonPremium>
           </div>
@@ -56,3 +56,4 @@ const Hero = () => {
 };
 
 export default Hero;
+
