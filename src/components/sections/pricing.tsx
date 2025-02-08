@@ -1,3 +1,4 @@
+
 import { Check } from "lucide-react";
 import { ButtonPremium } from "../ui/button-premium";
 
@@ -43,7 +44,6 @@ const Pricing = () => {
                 ))}
               </ul>
               <ButtonPremium
-                variant={plan.featured ? "default" : "outline"}
                 className={`w-full justify-center ${
                   plan.featured
                     ? "bg-white text-primary hover:bg-gray-50"
