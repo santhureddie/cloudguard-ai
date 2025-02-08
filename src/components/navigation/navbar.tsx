@@ -43,13 +43,13 @@ const Navbar = () => {
               <ButtonPremium 
                 variant="outline" 
                 size="sm"
-                className="!text-primary hover:!text-primary/90"
+                className="text-primary hover:text-primary/90 font-medium"
               >
                 Sign In
               </ButtonPremium>
               <ButtonPremium 
                 size="sm"
-                className="!text-white hover:!text-white/90"
+                className="text-white hover:text-white/90"
               >
                 Get Started
               </ButtonPremium>
@@ -89,12 +89,12 @@ const Navbar = () => {
             <div className="pt-4 space-y-2">
               <ButtonPremium 
                 variant="outline" 
-                className="w-full !text-primary hover:!text-primary/90"
+                className="w-full text-primary hover:text-primary/90 font-medium"
               >
                 Sign In
               </ButtonPremium>
               <ButtonPremium 
-                className="w-full !text-white hover:!text-white/90"
+                className="w-full text-white hover:text-white/90"
               >
                 Get Started
               </ButtonPremium>
@@ -107,4 +107,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
